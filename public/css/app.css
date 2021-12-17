@@ -12221,3 +12221,21 @@ fieldset:disabled .btn {
      object-position: 100% 0;
 }
 
+/* Footer */
+
+#footer_container .link_container {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer_container .link_container h4 {
+  color: white;
+}
+
+#footer_container .link_container ul li {
+  color: #3C3F42;
+}
+

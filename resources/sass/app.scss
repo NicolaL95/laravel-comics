@@ -41,3 +41,22 @@
     object-position: 100% 0;
     }
 }
+
+/* Footer */
+#footer_container{
+    .link_container{
+        background-image: url(../img/footer-bg.jpg);
+        height: 450px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+            h4{
+                color: white;
+            }
+            ul{
+                li{
+                  color: #3C3F42;  
+                }
+            }
+    }
+}
