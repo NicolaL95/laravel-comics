@@ -15,7 +15,9 @@
     </head>
     <body>
         @include('partials.header')
-        <main id='main_container'></main>
+        <main id='main_container'>
+            @yield('comics_list')
+        </main>
         @include('partials.footer')
     </body>
 </html>
