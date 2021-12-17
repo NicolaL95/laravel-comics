@@ -1,62 +1,76 @@
-@use 'bootstrap';
+@use "bootstrap";
 /* GLOBAL */
-.waterfall_menu{
+.waterfall_menu {
     margin-left: 3px;
-                }
-.bg_a{
-    background-color: #0282F9;
-    }
+}
+.bg_a {
+    background-color: #0282f9;
+}
 
-    /* HEADER */
-#header_container{
-    .extra_info{
-      
+.footer_text_c {
+    color: #797979;
+}
+
+/* HEADER */
+#header_container {
+    .extra_info {
         color: white;
-            gap: 50px;
-            p{
-              margin: 0;
-              font-size: 0.8rem;  
-            }
-                }
-    .navbar_control{
-        nav a{
+        gap: 50px;
+        p {
+            margin: 0;
+            font-size: 0.8rem;
+        }
+    }
+    .navbar_control {
+        nav a {
             text-decoration: none;
             color: #464649;
-                }
-        .header_logo img{
-                    height: 110px;
-                    padding: 15px 0;
-                        }
-                        input{
-                               border: 0;
-                                border-bottom: 2px solid #0282F9;
-                                text-align: right;
-                                color: #464649;
-                             }
-                    }
-    .jumbotron_image{
-    width: 100%;
-    object-fit: cover;
-    height: 400px;
-    object-position: 100% 0;
+        }
+        .header_logo img {
+            height: 110px;
+            padding: 15px 0;
+        }
+        input {
+            border: 0;
+            border-bottom: 2px solid #0282f9;
+            text-align: right;
+            color: #464649;
+        }
+    }
+    .jumbotron_image {
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
+        object-position: 100% 0;
     }
 }
 
 /* Footer */
-#footer_container{
-    .link_container{
+#footer_container {
+    .link_container {
         background-image: url(../img/footer-bg.jpg);
         height: 450px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-            h4{
-                color: white;
+        h4 {
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            li {
+                font-weight: bold;
             }
-            ul{
-                li{
-                  color: #3C3F42;  
-                }
-            }
+        }
+    }
+    .logo_bg {
+        background-image: url(../img/dc-logo-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .cta_container {
     }
 }

@@ -12180,7 +12180,11 @@ fieldset:disabled .btn {
 }
 
 .bg_a {
-  background-color: #0282F9;
+  background-color: #0282f9;
+}
+
+.footer_text_c {
+  color: #797979;
 }
 
 /* HEADER */
@@ -12207,7 +12211,7 @@ fieldset:disabled .btn {
 
 #header_container .navbar_control input {
   border: 0;
-  border-bottom: 2px solid #0282F9;
+  border-bottom: 2px solid #0282f9;
   text-align: right;
   color: #464649;
 }
@@ -12235,7 +12239,20 @@ fieldset:disabled .btn {
   color: white;
 }
 
+#footer_container .link_container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 #footer_container .link_container ul li {
-  color: #3C3F42;
+  font-weight: bold;
+}
+
+#footer_container .logo_bg {
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
