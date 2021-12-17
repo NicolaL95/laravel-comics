@@ -14,5 +14,8 @@
         </style>
     </head>
     <body>
+        @include('partials.header')
+        <main id='main_container'></main>
+        @include('partials.footer')
     </body>
 </html>
