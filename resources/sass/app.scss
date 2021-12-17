@@ -1,4 +1,43 @@
 @use 'bootstrap';
+/* GLOBAL */
+.waterfall_menu{
+    margin-left: 3px;
+                }
+.bg_a{
+    background-color: #0282F9;
+    }
 
-body {
+    /* HEADER */
+#header_container{
+    .extra_info{
+      
+        color: white;
+            gap: 50px;
+            p{
+              margin: 0;
+              font-size: 0.8rem;  
+            }
+                }
+    .navbar_control{
+        nav a{
+            text-decoration: none;
+            color: #464649;
+                }
+        .header_logo img{
+                    height: 110px;
+                    padding: 15px 0;
+                        }
+                        input{
+                               border: 0;
+                                border-bottom: 2px solid #0282F9;
+                                text-align: right;
+                                color: #464649;
+                             }
+                    }
+    .jumbotron_image{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    object-position: 100% 0;
+    }
 }

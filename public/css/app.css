@@ -12173,3 +12173,51 @@ fieldset:disabled .btn {
   }
 }
 
+/* GLOBAL */
+
+.waterfall_menu {
+  margin-left: 3px;
+}
+
+.bg_a {
+  background-color: #0282F9;
+}
+
+/* HEADER */
+
+#header_container .extra_info {
+  color: white;
+  gap: 50px;
+}
+
+#header_container .extra_info p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+#header_container .navbar_control nav a {
+  text-decoration: none;
+  color: #464649;
+}
+
+#header_container .navbar_control .header_logo img {
+  height: 110px;
+  padding: 15px 0;
+}
+
+#header_container .navbar_control input {
+  border: 0;
+  border-bottom: 2px solid #0282F9;
+  text-align: right;
+  color: #464649;
+}
+
+#header_container .jumbotron_image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+  -o-object-position: 100% 0;
+     object-position: 100% 0;
+}
+
