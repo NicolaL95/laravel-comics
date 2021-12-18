@@ -72,5 +72,36 @@
         position: relative;
     }
     .cta_container {
+        background-color: #303030;
+        z-index: 2;
+        position: relative;
+        .button_container {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            button {
+                border: 2px solid #0282f9;
+                padding: 7px;
+                color: white;
+                background-color: transparent;
+            }
+        }
+        .social_container {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            p {
+                color: #0282f9;
+                padding-right: 10px;
+            }
+            img {
+                padding: 7px;
+                width: 40px;
+            }
+        }
     }
 }

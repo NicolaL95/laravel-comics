@@ -58,14 +58,16 @@
         </div>
     </div>
     <div class="cta_container d-flex justify-content-between align-items-center">
-        <button>SIGN-UP NOW!</button>
-        <div class="social_container">
-        <p>FOLLOW US</p>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-pinterest-p"></i>
-        <i class="fab fa-pinterest-p"></i>
-        <i class="fas fa-map-marker-alt"></i>
+        <div class="button_container">
+         <button>SIGN-UP NOW!</button>
         </div>
+        <div class="social_container">
+        <p class="m-0">FOLLOW US</p>
+        <img src="{{asset('img/footer-facebook.png')}}" alt="Icona Social">
+        <img src="{{asset('img/footer-twitter.png')}}" alt="Icona Social">
+        <img src="{{asset('img/footer-youtube.png')}}" alt="Icona Social">
+        <img src="{{asset('img/footer-pinterest.png')}}" alt="Icona Social">
+        <img src="{{asset('img/footer-periscope.png')}}" alt="Icona Social">
+            </div>
     </div>
 </footer>
