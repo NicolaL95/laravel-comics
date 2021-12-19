@@ -1,30 +1,33 @@
 @extends('layouts.app')
 @section('page-title', 'homepage')
 @section('comics_list')
+<div class="bg_d">
+  <div class="current_series">
+        <h2>CURRENT SERIES</h2>
+      </div>
 <div class="container">
-    <div class="row">
-@foreach($comics_album as $comic)
+    <div class="row pt-5">
+@foreach($comics_album as $key=>$value)
 <div class="col-2">
-    <div class="card_container">
-        <img src="{{$comic['thumb']}}" alt="Album image">
-        <p>{{$comic['title']}}</p>
-    </div>
+    <a class="card_container" href="{{ route('comic',['num' => $key])}}">
+        <img src="{{$value['thumb']}}" alt="Album image">
+        <p>{{$value['series']}}</p>
+    </a>
 </div>
 @endforeach
     </div>
-</div>
- </div>
+
+
       <button class="load">LOAD MORE</button>
     </div>
     <div class="generic_bg">
       <div class="generic_container">
         <div class="generic_content">
-             <img src="{{asset('img/buy-comics.png')}}" alt="Icona Generica">
-          <img src="../assets/buy-comics-digital-comics.png" alt="" />
-          <p>Digital Comics</p>
+          <img src="{{asset('img/buy-comics-digital-comics.png')}}"alt="Icona Generica">
+          <p>DIGITAL COMICS</p>
         </div>
         <div class="generic_content">
-            <img src="{{asset('img/buy-comics--merchandise.png')}}" alt="Icona Generica">
+            <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="Icona Generica">
           <p>DC MERCHANDISE</p>
         </div>
         <div class="generic_content">
@@ -41,4 +44,7 @@
         </div>
       </div>
     </div>
+    </div>
+    </div>
+   </div>
 @endsection

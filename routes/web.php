@@ -18,3 +18,7 @@ Route::get('/', function () {
     return view('comhp', compact('comics_album'));
 })->name('comhp');
 
+Route::get('/{num}', 'DCController@show')->name('comic');;
+
+
+

@@ -12227,10 +12227,49 @@ fieldset:disabled .btn {
 
 /* MAIN */
 
+#main_container .current_series {
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  top: -20px;
+  left: 250px;
+  background-color: #0282f9;
+  color: white;
+}
+
+#main_container .current_series h2 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+#main_container .bg_d {
+  background-color: #1c1c1c;
+  position: relative;
+}
+
+#main_container .card_container {
+  text-decoration: none;
+}
+
+#main_container .card_container p {
+  color: white;
+  font-size: 0.9rem;
+}
+
+#main_container .load {
+  font-size: 0.8rem;
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 50px;
+  border: 0;
+  margin: 20px auto 15px auto;
+  display: block;
+}
+
 #main_container .generic_container {
   display: flex;
   justify-content: center;
-  padding: 30px 0;
+  padding: 40px 0;
   position: relative;
   z-index: 2;
 }
@@ -12253,6 +12292,17 @@ fieldset:disabled .btn {
 
 #main_container .generic_content p {
   padding-left: 10px;
+  margin: 0;
+}
+
+.card_container img {
+  vertical-align: middle;
+  width: 155px;
+  height: 176px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 100% 0;
+     object-position: 100% 0;
 }
 
 /* Footer */
