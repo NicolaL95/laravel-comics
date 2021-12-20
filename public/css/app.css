@@ -12183,6 +12183,10 @@ fieldset:disabled .btn {
   background-color: #0282f9;
 }
 
+.bg_gr {
+  background-color: #55ba59;
+}
+
 .footer_text_c {
   color: #797979;
 }
@@ -12294,6 +12298,38 @@ fieldset:disabled .btn {
   padding-left: 10px;
   margin: 0;
 }
+
+/* COMIC */
+
+.cover_format {
+  color: white;
+  border: 1px solid white;
+  top: -260px;
+}
+
+.cover_format span {
+  left: 0;
+  background-color: #00a9d9;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.cover_format p {
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: #00a9d9;
+}
+
+.price_av {
+  border-bottom: 1px solid;
+}
+
+.av {
+  width: 497px;
+  border-right: 1px solid black;
+}
+
+/* CARD */
 
 .card_container img {
   vertical-align: middle;

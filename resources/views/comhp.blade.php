@@ -2,7 +2,7 @@
 @section('page-title', 'homepage')
 @section('comics_list')
 <div class="bg_d">
-  <div class="current_series">
+  <div class="current_series series_format">
         <h2>CURRENT SERIES</h2>
       </div>
 <div class="container">

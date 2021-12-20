@@ -1,9 +1,12 @@
 @extends('layouts.app')
 @section('comics_list')
-    <div class="bg_a">
-        <div class="current_series">
-            <p>VIEW GALLERY</p>
-            <a href="{{ $dett_com[$num]['thumb'] }}"></a>
+    <div class="bg_a pt-5 pb-4 position-relative">
+        <div class="container">
+        <div class="cover_format position-absolute">
+            <img class="position-relative" src="{{ $dett_com[$num]['thumb'] }}" alt="Cover image">
+            <span class="position-absolute text-uppercase">{{ $dett_com[$num]['type'] }}</span>
+            <p class="m-0">VIEW GALLERY</p>
+        </div>
         </div>
     </div>
     <div class="container">
@@ -11,15 +14,23 @@
             <div class="col-6">
                 <div class="content">
                     <h2>{{ $dett_com[$num]['title'] }}</h2>
-                    <p>US.Price {{ $dett_com[$num]['price'] }}</p>
-                    <p>Check Availability</p>
-                    <p>{{ $dett_com[$num]['description'] }}</p>
+                    <div class="d-flex price_av justify-content-between">
+                    <div>
+                        <div class="d-flex bg_gr p-2 av justify-content-between">
+                            <p class="m-0 text-secondary">US.Price <span class="text-white">{{ $dett_com[$num]['price'] }}</span></p>
+                            <p class="m-0 text-secondary">AVAILABLE</p>
+                        </div>
+                    </div>
+                    <p class="m-0 bg_gr p-2 text-white">Check Availability</p>
+                    </div>
+                    <p class="fw-bold">{{ $dett_com[$num]['description'] }}</p>
                 </div>
             </div>
+        
             <div class="col-6">
                 <div class="adv">
                     <h2>ADVERTISEMENT</h2>
-                    <img src="{{ asset('img/adv.jpg') }}" alt="adv">
+                    <img src="{{asset('img/adv.jpg')}}" alt="adv">
                 </div>
             </div>
         </div>
