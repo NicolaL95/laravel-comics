@@ -12187,8 +12187,16 @@ fieldset:disabled .btn {
   background-color: #55ba59;
 }
 
+.bg_g {
+  background-color: #f6f6f6;
+}
+
 .footer_text_c {
   color: #797979;
+}
+
+.bt_1g {
+  border-top: 1px solid gray;
 }
 
 /* HEADER */
