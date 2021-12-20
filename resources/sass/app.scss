@@ -1,5 +1,6 @@
 @use "bootstrap";
 /* GLOBAL */
+
 .waterfall_menu {
     margin-left: 3px;
 }
@@ -11,8 +12,36 @@
     background-color: #55ba59;
 }
 
+.bg_g {
+    background-color: #f6f6f6;
+}
+
 .footer_text_c {
     color: #797979;
+}
+
+.text_da {
+    color: #003f5e;
+}
+
+.bt_1g {
+    border-top: 1px solid #e3e3e3;
+}
+
+.bb_1g {
+    border-bottom: 1px solid #e3e3e3;
+}
+.w_435r {
+    width: 435px;
+    text-align: right;
+}
+
+.w_435 {
+    width: 435px;
+}
+
+.pl-200 {
+    padding-left: 200px;
 }
 
 /* HEADER */
@@ -137,6 +166,12 @@
     border-right: 1px solid black;
 }
 
+.adv_title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: right;
+    width: 300px;
+}
 /* CARD */
 .card_container {
     img {
